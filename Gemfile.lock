@@ -90,6 +90,9 @@ GEM
       thread_safe
     email_validator (1.5.0)
       activemodel
+    ember-cli-rails (0.1.12)
+      railties (>= 3.1, < 5)
+      sprockets (>= 2.0)
     erubis (2.7.0)
     execjs (2.4.0)
     factory_girl (4.5.0)
@@ -271,6 +274,7 @@ DEPENDENCIES
   delayed_job_active_record
   dotenv-rails
   email_validator
+  ember-cli-rails
   factory_girl_rails
   flutie
   formulaic
